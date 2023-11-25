@@ -1,5 +1,5 @@
-[Run Keycloak in docker with extenal DB](https://medium.com/@ozbillwang/run-keycloak-in-docker-with-extenal-db-1b504ad00eae)
-[Keycloak image tags](https://quay.io/repository/keycloak/keycloak?tab=tags&tag=latest)
+
+## Build and Start Keycloak
 
 ```bash
 # Use docker build command to create an image
@@ -27,3 +27,8 @@ To access postgresql using the pgadmin4, open your browser in incognito mode and
 http://127.0.0.1:5050/
 
 Login to the admin console with the useranme `$PGADMIN_MAIL` and password `$PGADMIN_PW`
+
+## Reference:
+[Run Keycloak in docker with extenal DB](https://medium.com/@ozbillwang/run-keycloak-in-docker-with-extenal-db-1b504ad00eae)
+
+[Keycloak image tags](https://quay.io/repository/keycloak/keycloak?tab=tags&tag=latest)
